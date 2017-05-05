@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Get User Media Code Along!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="photobooth">
+    <div class="controls">
+      <button onClick="takePhoto()">Take Photo</button>
+      <div class="rgb">
+        <label for="rmin">Red:</label>
+        <input type="range" min=0 max=255 name="red">
+        <br>
+        <label for="gmin">Green:</label>
+        <input type="range" min=0 max=255 name="green">
+        <br>
+        <label for="bmin">Blue:</label>
+        <input type="range" min=0 max=255 name="blue">
+    
+      </div>
+    </div>
+
+    <canvas class="photo"></canvas>
+    <video class="player"></video>
+    <div class="strip"></div>
+    <button name="clear">Clear Photos!</button>
+  </div>
+
+  <audio class="snap" src="snap.mp3" hidden></audio>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>

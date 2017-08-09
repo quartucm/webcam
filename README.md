@@ -1,10 +1,30 @@
-Webcam Demo
+# Webcam Demo App
 
-Run npm install
-Run npm start 
+A simple Webcam Demo App that controls the R,G,B color content of your video stream. 
 
-The original idea came from wesbos's Javascript challenge, but I have added localStorage persistance as well as the color slider.
+## Getting Started
 
-This will start a server. You cannot use webcam on file:// protocol as it is insecure.
+### Prerequisites
 
-There are no checks for unsupported media here, please use a recent version of Chrome. Safari does not support getUserMedia!!!
+```
+Node
+NPM
+```
+
+NPM will install Browser-Sync, which will create a local server for you. Any website asking for access to a User's Website must be secure.
+
+### Installing
+
+First install the project's dependencies
+
+```
+npm install
+```
+
+Next, start a local server to view the project. 
+
+```
+npm start
+```
+
+Check the demo here: https://quartucm.github.io/webcam/
